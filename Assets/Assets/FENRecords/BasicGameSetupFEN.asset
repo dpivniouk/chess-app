@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2546cfef4ca7ddf4392c8e0370a6ca8d, type: 3}
+  m_Name: BasicGameSetupFEN
+  m_EditorClassIdentifier: 
+  ranks:
+  - rnbqkbnr
+  - pppppppp
+  - 8
+  - 8
+  - 8
+  - 8
+  - PPPPPPPP
+  - RNBQKBNR
+  activeColor: w
+  castling: KQkq
+  enPassant: '-'
+  halfmoveClock: 0
+  fullmoveClock: 1
+  gameMode: 1
+  hasTurnLimit: 0

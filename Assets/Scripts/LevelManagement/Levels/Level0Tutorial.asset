@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e178c0678ccbce49a92e59acf1d5046, type: 3}
+  m_Name: Level0Tutorial
+  m_EditorClassIdentifier: 
+  levelNumber: 0
+  levelName: Tutorial
+  allyPositions:
+  - {x: 4, y: 6}
+  allyRotations:
+  - {x: 0, y: 180, z: 0}
+  allyGridStart: {x: 3, y: 4}
+  allyGridEnd: {x: 5, y: 5}
+  height: 7
+  width: 9
+  enemies:
+  - {fileID: 11400000, guid: 05c0b0939c7511c40893a189fae387f3, type: 2}
+  interactables: []
+  interactablePositions: []
+  interactableRotations: []
+  globalVariableNames: []
+  globalVariableInitialValues: 
+  floorTile: {fileID: 3592472751854311625, guid: 1a08c0c0868d5fc46ab682c81bcb2430,
+    type: 3}
+  wall:
+  - {fileID: 3488255934023056824, guid: 645ec23767196034ca1b17da1bb0eb6e, type: 3}
+  - {fileID: 3488255934023056824, guid: 154a638f5db5eba4798a4f08054b8a6d, type: 3}
+  corner: {fileID: 6649905497476883598, guid: 3aad97940624b1f4ca6121239a3df1a9, type: 3}
+  doodads: []
+  doodadPositions: []
+  doodadRotations: []
+  terrainZones: []
+  terrainPositions: []
+  terrainIdentifiers: []
+  cosmeticFloorTiles: []
+  cosmeticLeftEdgeFloorTiles:
+  - {fileID: 7592887099865060537, guid: cb4ff51ae53a09d4fbdcf02136033433, type: 3}
+  - {fileID: 21300104, guid: 04bcaf57df6ad3d4694a608d7190cf18, type: 3}
+  cosmeticTopEdgeFloorTiles:
+  - {fileID: 6067652465067633541, guid: cb4ff51ae53a09d4fbdcf02136033433, type: 3}
+  - {fileID: -5142315866873418191, guid: cb4ff51ae53a09d4fbdcf02136033433, type: 3}
+  - {fileID: 21300104, guid: 04bcaf57df6ad3d4694a608d7190cf18, type: 3}
+  cosmeticRightEdgeFloorTiles:
+  - {fileID: 1517051529655290332, guid: cb4ff51ae53a09d4fbdcf02136033433, type: 3}
+  - {fileID: 21300104, guid: 04bcaf57df6ad3d4694a608d7190cf18, type: 3}
+  cosmeticBottomEdgeFloorTiles:
+  - {fileID: -7542128279031903307, guid: cb4ff51ae53a09d4fbdcf02136033433, type: 3}
+  - {fileID: 6871139712206906783, guid: cb4ff51ae53a09d4fbdcf02136033433, type: 3}
+  - {fileID: 21300104, guid: 04bcaf57df6ad3d4694a608d7190cf18, type: 3}
+  cosmeticCornerSWFloorTiles:
+  - {fileID: 8910683750091804237, guid: cb4ff51ae53a09d4fbdcf02136033433, type: 3}
+  - {fileID: 21300104, guid: 04bcaf57df6ad3d4694a608d7190cf18, type: 3}
+  cosmeticCornerNWFloorTiles:
+  - {fileID: 9194448513738053234, guid: cb4ff51ae53a09d4fbdcf02136033433, type: 3}
+  - {fileID: 21300104, guid: 04bcaf57df6ad3d4694a608d7190cf18, type: 3}
+  cosmeticCornerSEFloorTiles:
+  - {fileID: 8801146627757674396, guid: cb4ff51ae53a09d4fbdcf02136033433, type: 3}
+  - {fileID: 21300104, guid: 04bcaf57df6ad3d4694a608d7190cf18, type: 3}
+  cosmeticCornerNEFloorTiles:
+  - {fileID: 8718713856387519573, guid: cb4ff51ae53a09d4fbdcf02136033433, type: 3}
+  - {fileID: 21300104, guid: 04bcaf57df6ad3d4694a608d7190cf18, type: 3}
